@@ -1,9 +1,114 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="29.3.0">
   <diagram name="第 1 页" id="0ld3lXvtB2Ap3QRyXWtV">
-    <mxGraphModel dx="1416" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1804" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6c3p63b-z7H8KiHfahlM-54" edge="1" parent="1" source="6c3p63b-z7H8KiHfahlM-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6c3p63b-z7H8KiHfahlM-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-4" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="已知问题&lt;b&gt;B&lt;/b&gt;集合&lt;div&gt;已知问题&lt;b&gt;B&lt;/b&gt;例子&lt;br&gt;&lt;div&gt;已知&lt;span style=&quot;background-color: transparent;&quot;&gt;问题&lt;/span&gt;&lt;b style=&quot;background-color: transparent;&quot;&gt;B&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;算法集合&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="495" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-44" edge="1" parent="1" source="6c3p63b-z7H8KiHfahlM-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="6c3p63b-z7H8KiHfahlM-42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-46" connectable="0" parent="6c3p63b-z7H8KiHfahlM-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="LLM" vertex="1">
+          <mxGeometry relative="1" x="-0.0014" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-10" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" value="问题A" vertex="1">
+          <mxGeometry height="104" width="150" x="180" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-11" parent="6c3p63b-z7H8KiHfahlM-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="问题A描述" vertex="1">
+          <mxGeometry height="26" width="150" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-12" parent="6c3p63b-z7H8KiHfahlM-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="问题A输入定义" vertex="1">
+          <mxGeometry height="26" width="150" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-53" parent="6c3p63b-z7H8KiHfahlM-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="问题A输出定义" vertex="1">
+          <mxGeometry height="26" width="150" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-27" edge="1" parent="1" source="6c3p63b-z7H8KiHfahlM-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;" target="6c3p63b-z7H8KiHfahlM-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-52" connectable="0" parent="6c3p63b-z7H8KiHfahlM-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="AHD&lt;div&gt;(LLM4AD)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2735" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-14" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" value="问题B&#39;,B&#39;∈&lt;b&gt;B&lt;/b&gt;" vertex="1">
+          <mxGeometry height="104" width="150" x="480" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-15" parent="6c3p63b-z7H8KiHfahlM-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="问题B&#39;描述" vertex="1">
+          <mxGeometry height="26" width="150" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-39" parent="6c3p63b-z7H8KiHfahlM-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="问题B&#39;输入定义" vertex="1">
+          <mxGeometry height="26" width="150" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-16" parent="6c3p63b-z7H8KiHfahlM-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="输入A到输入B的reduction" vertex="1">
+          <mxGeometry height="26" width="150" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-19" edge="1" parent="1" source="6c3p63b-z7H8KiHfahlM-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="6c3p63b-z7H8KiHfahlM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-20" edge="1" parent="1" source="6c3p63b-z7H8KiHfahlM-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="6c3p63b-z7H8KiHfahlM-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-22" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" value="问题B&#39;,B&#39;∈&lt;b&gt;B&lt;/b&gt;" vertex="1">
+          <mxGeometry height="72" width="150" x="480" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-23" parent="6c3p63b-z7H8KiHfahlM-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="问题B&#39;算法" vertex="1">
+          <mxGeometry height="26" width="150" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-24" parent="6c3p63b-z7H8KiHfahlM-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="问题B&#39;输出" vertex="1">
+          <mxGeometry height="26" width="150" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-29" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" value="问题B&#39;,B&#39;∈&lt;b&gt;B&lt;/b&gt;" vertex="1">
+          <mxGeometry height="72" width="160" x="150" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-31" parent="6c3p63b-z7H8KiHfahlM-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="问题B&#39;输出" vertex="1">
+          <mxGeometry height="26" width="160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-47" parent="6c3p63b-z7H8KiHfahlM-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="输出B到输出A的reduction" vertex="1">
+          <mxGeometry height="26" width="160" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-32" edge="1" parent="1" source="6c3p63b-z7H8KiHfahlM-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="6c3p63b-z7H8KiHfahlM-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-35" edge="1" parent="1" source="6c3p63b-z7H8KiHfahlM-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="6c3p63b-z7H8KiHfahlM-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-38" connectable="0" parent="6c3p63b-z7H8KiHfahlM-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="LLM-reduction" vertex="1">
+          <mxGeometry relative="1" x="-0.0667" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-36" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="检查" vertex="1">
+          <mxGeometry height="45" width="100" x="-70" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-51" edge="1" parent="1" source="6c3p63b-z7H8KiHfahlM-53" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="400" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="问题A的输入生成（对应输出并不知道）" vertex="1">
+          <mxGeometry height="32.5" width="150" x="-80" y="238.75" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-13" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="问题A输出" vertex="1">
+          <mxGeometry height="26" width="140" x="-70" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-49" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="LLM-reduction" vertex="1">
+          <mxGeometry x="413" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-50" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="SMT验证？" vertex="1">
+          <mxGeometry height="45" width="100" x="670" y="258.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6c3p63b-z7H8KiHfahlM-55" edge="1" parent="1" source="6c3p63b-z7H8KiHfahlM-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6c3p63b-z7H8KiHfahlM-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
